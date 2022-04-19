@@ -1,0 +1,13 @@
+{
+  "name": "geektrust",
+  "version": "1.0.0",
+  "description": "",
+  "main": "geektrust.js",
+  "scripts": {
+    "start": "node geektrust.js",
+    "test": "mocha"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
