@@ -6,8 +6,11 @@
   "scripts": {
     "start": "node geektrust.js",
     "test": "mocha"
-},
+  },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^9.2.2"
+  }
 }
