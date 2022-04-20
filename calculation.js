@@ -46,7 +46,7 @@ function printData(data){
     }else if(calQuantity <= 3000){
       return (cost += (500 * 2) + (1500 * 3) + ((calQuantity - 2000) * 5))
     }else if(calQuantity> 3000){
-      return (cost += (500 *2) + (1500 * 3) + (3000 * 5) + ((calQuantity - 5000) * 8))
+      return (cost += (500 *2) + (1500 * 3) + (3000 * 5) + ((calQuantity - 3000) * 8))
     }
   }
   
@@ -74,7 +74,6 @@ function printData(data){
     var calQuantity = numberOfPeople * 300;
     remainingCost(calQuantity)
     console.log(quantity, cost)
-    // console.log(array, 3)
   }
   
   function removeEdgeSpaces(arr){
